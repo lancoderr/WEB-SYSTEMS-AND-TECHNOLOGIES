@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUẦN 2</title>
+    <link rel="stylesheet" href="./asstes/111.mp4">
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            left: 105%;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- Bai 10 -->
+        <details open>
+            <summary>FIT</summary>
+            <p>The foreunner of the Industrial University of Ho Chi Minh University was Professional Training School in
+                Go Vap and founded December 1956. March 1999, the school was upgraded to College Industry IV and
+                December 2004 School was upgraded to Ho Chi Minh University of Industry under Decision No 214/2004/QD -
+                TTg of the Prime Minister.</p>
+        </details>
+        <hr>
+        <div>
+            <!--  Bai 11 -->
+            <img style="display: inline-block; height: 80px;"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqRj_njoVy-JhBIFQDoJv1SiTzUnHOmkGDAg&usqp=CAU"
+                alt="tivi">
+            <div style="display: inline-block;">
+                <h2 style="display: inline-block; margin-bottom: 0px ;">mozilla</h2>
+                <h1 style="margin: 0px;">Drumbeat</h1>
+            </div>
+            <h1>About</h1>
+            <p>Drumbeat is an initative that wants to keep the web <b>open</b> and di it through <i>practical projects
+                    and local events </i>tha gather samart, creative people around big ideas, solving problems and
+                building the <b>open web.</b></p>
+            <h1>Projects</h1>
+            <ul>
+                <li>
+                    Featured
+                    <ul>
+                        <li>
+                            <a href="">School of Webcraft</a>
+                        </li>
+                        <li>
+                            <a href="">Crisis Commons</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Lastest
+                    <ul>
+                        <li>
+                            <a href="">JessyInk</a>
+                        </li>
+                        <li>
+                            <a href="">PrivacyCamp</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <br>
+            <a href="https://twitter.com/" class="tooltip" title="Social Network">
+                Twitter
+                <span class="tooltiptext">Social Network</span>
+            </a> |
+            <a href="https://www.facebook.com/" class="tooltip" title="Social Network">
+                Facebook
+                <span class="tooltiptext">Social Network</span>
+            </a> |
+            <a href="https://www.flickr.com/" class="tooltip" title="Social Network">
+                Flickr
+                <span class="tooltiptext">Social Network</span>
+            </a>
+        </div>
+        <hr>
+        <div>
+            <!-- Bai 12 -->
+            <form action="">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Minh Lan" required><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <hr>
+        </div>
+        <div>
+            <!-- Bai 13 -->
+            <form action="" method="post">
+                <p>Name:<br>
+                    <input type="text" name="txtName" value="" size="20" maxlength="20">
+                </p>
+                <p>Telephone Number:<br>
+                    <input type="text" name="txtTel" value="" size="20" maxlength="20">
+                </p>
+                <p>Email:<br>
+                    <input type="text" name="txtEmail" value="" size="20" maxlength="20">
+                </p>
+                <p>Favorite color:<br>
+                    <input type="color" name="txtColor" value="" size="2.5" maxlength="10">
+                </p>
+                <p>Date of Birth:<br>
+                    <input type="date" name="txtname" value="" size="20" maxlength="20">
+                </p>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <hr>
+        <div>
+            <!-- Bai 14 -->
+            <h1>Contact Us</h1>
+            <p>Use the following form to send a message to Example Cafe</p>
+            <form action="">
+                <table>
+                    <p>Your email
+                        <input type="email" name="txtEmail" style="margin-left:88px">
+                    </p>
+                    <tr>
+                        <td><label for="message">Message</label></td>
+                        <td><textarea id="message" name="message" style="margin-left:100px;" cols="50"
+                                rows="10"></textarea></td><br>
+                    </tr>
+                </table>
+                <label for="Network">How did you hear of us?</label>
+                <select id="Network" name="Network">
+                    <option value="">Google</option>
+                    <option value="CocCoc">CocCoc</option>
+                </select><br>
+                <label>Newsletter
+                    <input style="margin-left:88px;" type="checkbox" id="option" name="options[]" value="Option 1">
+                    <label for="option">Ensure this box checked if you would like to receive email
+                        updates</label></label><br>
+                <input type="submit" value="Send message">
+
+            </form>
+        </div>
+        <hr>
+        <div>
+            <!-- Bai 15 -->
+            <h1>Contact Us</h1>
+            <form>
+                <fieldset>
+                    <legend>Your message</legend>
+                    <table>
+                        <tr>
+                            <td><label for="email">To</label></td>
+                            <td><input style="margin-left: 60px;" type="text" name="txtTo" readonly="readonly"
+                                    id="email" size="20" value="Example Cafe"></td>
+                        <tr>
+
+                        </tr>
+                        <td><label for="emailbody">Message</label></td>
+                        <td><textarea style="margin-left: 60px;" name="txtbody" id="emailbody" cols="50" rows="10"
+                                tabindex="2"></textarea></td>
+                        </tr>
+                    </table>
+                    <fieldset>
+                        <legend>How you found us:</legend>
+                        <table>
+                            <tr>
+                                <td><label for="gg">How did you hear </label><select id="gg" name="gg">
+                                        <option value="">Google</option>
+                                        <option value="CocCoc">CocCoc</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>of us</td>
+                            </tr>
+                            <tr>
+                                <td><label for="Newsletter">Newsletter</label></td>
+                                <td><input type="checkbox" id="option" name="options[]" value="Option 1">
+                                    <label for="option">Ensure this box checked if you would like to receive email
+                                        updates</label></label><br>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <input type="submit" value="Send message">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <table>
+                            <tr>
+                                <td><label for="fname">First name</label></td>
+                                <td><input style="margin-left: 60px;" type="text" name="txtfname" readonly="readonly"
+                                        id="fname" size="20" value=""></td>
+                            <tr>
+
+                            </tr>
+                            <td><label for="lname">Last name</label></td>
+                            <td><input style="margin-left: 60px;" name="txtlname" readonly="readonly" id="lname"
+                                    size="20" value=""></td>
+                            <tr>
+
+                            </tr>
+                            <td><label for="email">E-mail</label></td>
+                            <td><input style="margin-left: 60px;" name="txtlname" readonly="readonly" id="lname"
+                                    size="20" value=""></td>
+                            </tr>
+                        </table>
+                    </fieldset><br>
+                    <fieldset>
+                        <legend>Competition Question</legend>
+                        <label for="ff">How tall is the Eiffel Tower in Paris, France?</label><br>
+                        <input type="checkbox" id="option" name="options[]" value="Option1">
+                        <label for="option">584 ft</label></label><br>
+                        <input type="checkbox" id="option" name="options[]" value="Option1">
+                        <label for="option">784 ft</label></label><br>
+                        <td><input type="checkbox" id="option" name="options[]" value="Option1">
+                            <label for="option">984 ft</label></label><br>
+                        <td><input type="checkbox" id="option" name="options[]" value="Option1">
+                            <label for="option">1181 ft</label></label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Tiebreaker Question</legend>
+                        <label for="rr">In 25 words or less, say why you would like to win $10.000:</label><br>
+                        <textarea name="ww" id="ww" cols="40" rows="10"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Enter compertition</legend>
+                        <input type="submit" value="Enter Compertition">
+                    </fieldset>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <!-- Bai 16 -->
+            <h1>Travel reservation form</h1>
+            <form action="">
+                <h2>*denotes mandotory</h2>
+                <table>
+                    <tr>
+                        <td><label for="fullname">Full name*:</label></td>
+                        <td><input type="text" id="fullname" name="fullname" placeholder="FirstName LastName" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="emailadd">Email address*:</label></td>
+                        <td><input type="text" id="emailadd" name="emailadd" placeholder="EMAIL_ADDRESS"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="STP">Select Tour Package*:</label></td>
+                        <td><select name="STP" id="STP">
+                                <option value="">Goa</option>
+                                <option value="">Hea</option>
+                                <option value="">Aoa</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Adate">Arrival date*:</label></td>
+                        <td><input type="date" id="Adate" name="Adate"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Number">number of persons*:</label></td>
+                        <td><input type="number" id="Number" name="Number" placeholder="UNKNOWN_TYPE"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="WWW">What would you want to avail?*</label></td>
+                    </tr>
+                    <tr>
+                        <td>Boadring<input type="checkbox" id="WWW" name="WWW"></td>
+                    </tr>
+                    <tr>
+                        <td>Fooding<input type="checkbox" id="WWW" name="WWW"></td>
+                    </tr>
+                    <tr>
+                        <td>Sight seeing<input type="checkbox" id="WWW" name="WWW"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="TAC">Terms and conditions*:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="TAC" name="TAC">I agree</td>
+                        <td><input type="radio" id="TAC" name="TAC">I disagree</td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Complete reservation"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <hr>
+        <div style="background-color: #ffd078; padding: 0px; margin: 0px auto;">
+            <!-- Bai 17-->
+            <form action="">
+            <h1 style="text-align:center">Survey Form</h1>
+            <p>Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme,
+                the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your
+                headings change to match the new theme.</p>
+            <ol>
+                <li>
+                    What is your name? <br>
+                    <input type="text" id="name" name="name">
+                </li>
+                <li>
+                    what is your date of birth? <br>
+                    Month: <input type="month" id="month" name="month">
+                    Date: <input type="date" name="date" id="date">
+                    Year: <input type="number" name="year" id="year">
+                </li>
+                <li>
+                    What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?
+                    <table>
+                        <TR>
+                        <td><textarea name="add" id="add" cols="30" rows="10">Number/P.O. Box/Route:          Street/Avenue/Road:             City:                           State/Zip:                     </textarea></td>
+                        </TR>
+                    </table>
+                    </li>
+                    <li>
+                        What is your email address?<br>
+                        <input type="text" id="email" name="email">
+                    </li>
+                    <li>
+                        Have you viewed our online product catalog?<br>
+                        <input type="radio" name="option" id="option[]" value="Option1" checked>
+                        <label for="option">Yes</label>
+                        <input type="radio" name="option" id="option[]" value="Option2">
+                        <label for="Option">No</label>
+                    </li>
+                    <li>
+                        If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (Check all that apply.)
+                        <br><input type="checkbox" name="option1" id="option1" value="Option1">
+                        <label for="Option1">VCR</label><br>
+                        <input type="checkbox" name="option2" id="option2" value="option2">
+                        <label for="option2">Big Screen TV</label><br>
+                        <input type="checkbox" name="option3" id="option3" value="option3">
+                        <label for="option3">Audio Equipment</label><br>
+                        <input type="checkbox" name="option4" id="option4" value="option4">
+                        <label for="option4">Video Equipment</label><br>
+                        <input type="checkbox" name="option5" id="option5" value="option5">
+                        <label for="option5">Camera Equipment</label><br>
+                        <input type="checkbox" name="option6" id="option6" value="option6" checked>
+                        <label for="option6">Other</label> <input type="text" placeholder="Please List:"><br>
+                    </li>
+                    <li>
+                        <table>
+                            <tr>
+                        Do you have any questions, conments or suggestions before proceeding to the Order Form?
+                        <td><textarea name="txt" id="txt" cols="30" rows="10">Your Input:</textarea></td>
+                    </tr>
+                    </table>
+                    </li>
+                    <input type="submit" value="Send Form">
+                    <input type="submit" value="Clear form">
+            </ol>
+            </form>
+            <hr>
+        </div>
+        <div>
+          <form action="">
+            <label for="Browser">Browser:</label>
+            <input type="text" id="Browser" name="Browser" style="margin-left: 33px;"><br><br>
+            <label for="usename" id="usename" name="usename">Use Name:</label>
+            <input type="text" id="usename" name="usename" style="margin-left:20px ;"><br><br>
+            <label for="en">Encryption:</label>
+            <input type="text" name="en" id="en" style="margin-left: 16px;"> <br>
+            <input type="range" name="point" id="point" min="0" max="100"><br>
+            <input type="number" name="number" id="number" value="50"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date"><br><br>
+            <label for="color">Select your favorite color:</label>
+            <input type="color" name="color" id="color" value="red"><br><br>
+            <label for="birthdaymy">Birthday (month and year):</label>
+            <input type="month"><br><br>
+            <label for="week">Select a week:</label>
+            <input type="week"><br><br>
+            <label for="time">Select a time:</label>
+            <input type="time"><br><br>
+            <label for="datetime">Birthday (date and time):</label>
+            <input type="datetime"><br><br>
+            <label for="email">E-mail:</label>
+            <input type="email"><br><br>
+            <label for="search">Search Google:</label>
+            <input type="search"><br><br>
+            <label for="tel">Telephone:</label>
+            <input type="tel"><br><br>
+            <label for="add">Add your homepage:</label>
+            <input type="text"><br><br>
+            <input type="submit" value="submit"> <br><br>
+            <label for="note"><B>Note:</B> The datalist tag is not supported in Safari or IE9 (and earlier).</label>
+          </form>
+        </div>
+        <hr>
+        <div>
+            <!-- Bài 18 -->
+            <form action="" method="get" name="info">
+                Please indicate your area of interest: <br>
+                <input type="text" name="name" value="" size="20" maxlength="20" list="tech">
+                <datalist id="tech">
+                    <option value="css">
+                    <option value="html">
+                    <option value="javascript">
+                </datalist>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <!-- Bài 19 -->
+            <p>.mp4</p>
+            <video poster="resource/star.png" width="250" height="250" controls>
+                <source src="asstes/111.mp4" type="video/mp4;">
+            </video>
+        <div>
+            <p>.webm</p>
+            <video poster="resource/star.png" width="250" height="250" controls>
+                <source src="asstes/111.mp4" type="video/webm;">
+            </video>
+        </div>
+        <div>
+            <p>.ogv</p>
+            <video poster="resource/star.png" width="250" height="250" controls>
+                <source src="asstes/111.mp4" type="video/ogg;">
+            </video>
+        </div>
+        </div>
+        <hr>
+        <div>
+            <!-- Bài 20 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k3PRFVKOpyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+</body>
+
+</html>
